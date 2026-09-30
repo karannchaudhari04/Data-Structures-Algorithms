@@ -9,3 +9,13 @@ for i in range(0, len(nums)):
         freq_map[nums[i]] = 1
 
 print(freq_map)
+
+#Different method
+
+num = [7,2,2,6,7,5]
+
+hash_map = dict()
+for j in range(0, len(num)):
+    hash_map[num[j]] = hash_map.get(num[j], 0) +1
+
+print(hash_map)
