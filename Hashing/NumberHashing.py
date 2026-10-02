@@ -15,6 +15,7 @@ for num in m:
         print(hash_list[num])
 
 
+
 #Number hashing using dictionary
 
 x = [1,2,1,4,2,3,4,5,6,1,7,8,]
@@ -33,4 +34,3 @@ for num in y:
         print(0)
     else:
         print(hash_dict.get(num, 0))
-        
