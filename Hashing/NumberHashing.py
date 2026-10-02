@@ -33,3 +33,4 @@ for num in y:
         print(0)
     else:
         print(hash_dict.get(num, 0))
+        
