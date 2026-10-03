@@ -1,8 +1,3 @@
-n = 5873
+age = input("Enter you age: ")
 
-num = n
-
-while num > 0:
-    lastdigit = num % 10
-    print(lastdigit)
-    num = num // 10
+print(int(age))
