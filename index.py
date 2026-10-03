@@ -1,3 +1,6 @@
-age = input("Enter you age: ")
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
 
-print(int(age))
+sum = a+b
+
+print("sum: ", sum)
