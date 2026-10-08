@@ -1,4 +1,3 @@
-marks = {"Math":99, "Physics":97, "Chemistry":94}
+Roll_Numbers = [101,105,102,101,108,105,110]
 
-for score in marks:
-    print(score, marks[score])
+print(list(set(Roll_Numbers)))
