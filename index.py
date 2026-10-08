@@ -1,3 +1,4 @@
-marks = {90,91,92,93,90,92}
+marks = {"Math":99, "Physics":97, "Chemistry":94}
 
-print(marks)
+for score in marks:
+    print(score, marks[score])
