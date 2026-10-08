@@ -1,5 +1,8 @@
-def gst_calculate(price):
-    new_price = price + price * 0.18
-    print(new_price)
+def avg(marks):
+    sum = 0
+    for m in marks:
+        sum = sum + m
+    average = sum / len(marks)
+    print(average)
 
-gst_calculate(200)
+avg(marks = [99, 89, 97, 95, 88])
