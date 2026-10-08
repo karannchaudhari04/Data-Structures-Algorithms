@@ -1,3 +1,18 @@
-Roll_Numbers = [101,105,102,101,108,105,110]
+Emp = [
+    (101, "Alice", 50000), 
+    (102, "Bob", 65000), 
+    (103, "Charlie", 55000)
+]
 
-print(list(set(Roll_Numbers)))
+EmpID = int(input("Enter Employee ID: "))
+
+found = False
+
+for emp in Emp:
+    if emp[0] == EmpID:
+        print(f"Employee ID Found: {emp}")
+        found = True
+        break
+
+if not found:
+    print("Employee ID does not found")
