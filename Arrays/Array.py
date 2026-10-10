@@ -10,4 +10,3 @@ copyArray = array(val.typecode, (x for x in val))
 
 for i in copyArray:
     print(i, end=" ")
-
