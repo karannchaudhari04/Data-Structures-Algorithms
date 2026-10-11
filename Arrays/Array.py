@@ -1,11 +1,7 @@
 from array import *
 
-arr = array('i', [])
-n = int(input("Enter a number: "))
+arr = array('i', [1,2,3,4,5,6,7,8])
 
+i = arr.index(3)
 
-for i in range(0,n):
-    arr.append(int(input("Enter next input: ")))
-    
-for x in arr:
-    print(x, end=" ")
+print(i)
