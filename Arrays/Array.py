@@ -1,12 +1,8 @@
 from array import *
 
-val = array('i', [1,2,3,4,5,6,7,8])
+arr = array('i', [])
+n = int(input("Enter a number: "))
 
-for x in val:
-    print(x, end=" ")
 
-print()
-copyArray = array(val.typecode, (x for x in val))
-
-for i in copyArray:
+for i in range(0,n):
     print(i, end=" ")
