@@ -1,18 +1,11 @@
-Emp = [
-    (101, "Alice", 50000), 
-    (102, "Bob", 65000), 
-    (103, "Charlie", 55000)
-]
+movies = []
 
-EmpID = int(input("Enter Employee ID: "))
+mov1 = input("Enter first movie name: ")
+mov2 = input("Enter second movie name: ")
+mov3 = input("Enter third movie name: ")
 
-found = False
+movies.append(mov1)
+movies.append(mov2)
+movies.append(mov3)
 
-for emp in Emp:
-    if emp[0] == EmpID:
-        print(f"Employee ID Found: {emp}")
-        found = True
-        break
-
-if not found:
-    print("Employee ID does not found")
+print(movies)
