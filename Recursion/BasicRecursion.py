@@ -1,8 +1,7 @@
-def func(x,n):
-    if n == 0:
+def func(i,n):
+    if i > n:
         return
-    print(x)
-    n -= 1
-    func(x,n)
+    print(i)
+    func(i+1,n)
 
-func(15,4)
+func(1,5)
