@@ -1,10 +1,8 @@
-count = 0
-def func():
-    global count
-    if count == 4:
+def func(x,n):
+    if n == 0:
         return
-    print("Karan")
-    count = count + 1
-    func()
+    print(x)
+    n -= 1
+    func(x,n)
 
-func()
+func(15,4)
