@@ -1,7 +1,6 @@
-def func(i,n):
-    if i > n:
-        return
-    print(i)
-    func(i+1,n)
+def func(n):
+    if n == 1:
+        return 1
+    return n+func(n-1)
 
-func(1,5)
+print(func(10))
