@@ -28,4 +28,4 @@ left = [1,2,3,4]
 right = [1,1,3,4,5,6,7]
 
 merge_array = merge_arrays(left,right)
-print(merge_array)
+# print(merge_array)
