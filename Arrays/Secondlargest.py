@@ -5,10 +5,10 @@ def secondlargest(arr):
 
     for i in range(0,n):
         if arr[i] > larger:
+            secondlargest = larger
             larger = arr[i]
 
-    for i in range(0,n):
-        if arr[i] > secondlargest and arr[i] != larger:
+        elif arr[i] > secondlargest and arr[i] != larger:
             secondlargest = arr[i]
 
     return secondlargest
