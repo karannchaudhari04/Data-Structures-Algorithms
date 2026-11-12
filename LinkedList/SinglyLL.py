@@ -24,9 +24,7 @@ class SinglyLL:
             t1 = t1.next
 
 obj = SinglyLL()
-
 obj.insertAtEnd(10)
 obj.insertAtEnd(20)
 obj.insertAtEnd(30)
-
 obj.printLL()
